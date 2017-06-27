@@ -1,0 +1,56 @@
+.high {   
+    background-color:white; 
+}
+
+
+h1, h3{
+    font-family: 'Montserrat', sans-serif; font-weight:900;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+}
+
+    #laterhi{
+        display: none;
+    }
+
+@media only screen and (max-width:650px){
+        #hi{
+        display:none;
+    }
+    #laterhi{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:551px){.nav{
+    float: right;
+}
+    
+    .services-section{
+        padding-top: 60px;
+    }
+
+.nav li{
+    margin-left:40px;
+    margin-right:40px;
+}
+}
+.jump p a {
+    text-decoration: none;
+}
+@media only screen and (max-width:550px){
+    
+    #id{
+        font-size: 7px;
+    }
+    .services-section, .about-section, .contact-section{
+    height:auto;
+        padding-top:50px;
+}
+    .intro-section{
+    height:auto;
+        padding-top:70px;
+}
+}
